@@ -24,3 +24,7 @@ body{background-color:#2E2E2E}
 .cemetery{font-family:Arial, Helvetica, sans-serif}
 .cemetery .headstone{background-color:#606060;color:#FFFFFF}
 .cemetery .headstone .engraving .header .name h1{font-family:bloodlust;font-weight:normal !important;font-size:3em}
+
+/* Footer */
+.footer{font-family:Arial, Helvetica, sans-serif;font-size:12pt;color:#FFFFFF;margin-top:10px;}
+.footer a{color:#FFFFFF}

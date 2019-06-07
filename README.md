@@ -12,7 +12,7 @@ Just a raw HTML site.
 
 ## Icons
 
-To add a fresh new icon, visit [Emojipedia][emojipedia], and look for something relevant. Currently, the preferred style for graves are the Google style. It will require updating of the related Sass file, as well as the actual records.
+To add a fresh new icon, visit [Emojipedia][emojipedia], and look for something relevant. Currently, the preferred style for graves are the Google style. It will require updating of the style sheet.
 
 ### Association Logic
 

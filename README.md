@@ -2,7 +2,7 @@
 
 A fun, html-only site focused on keeping track of those who have left us too soon.
 
-Because when you leave, you're... _dead to us_. :sparkling-heart:
+Because when you leave, you're... _dead to us_. :heart:
 
 ![dead-to-us][dead-to-us-gif]
 

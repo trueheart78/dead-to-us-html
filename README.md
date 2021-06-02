@@ -20,8 +20,7 @@ the preferred style for graves are the Google style. It will require updating of
 
 - If someone has left the company, they should be assigned a `grave-coffin`.
 - If they have simply gone to another team, then they should be assigned a `grave-ghost`.
-- If they are promoted within the same vertical (meaning they are in your chain-of-command), then
-  they are considered a `grave-vampire_boy` or `grave-vampire_girl`.
+- If they are promoted within the company, then they are considered a `grave-vampire_boy` or `grave-vampire_girl`.
 - For those on retainer (like myself), `grave-zombie_boy` or `grave-zombie_girl` is preferred.
 - `grave-skull` was the classic icon, and is still available, for times where the prior logic
   doesn't apply.
@@ -47,6 +46,10 @@ Supported:
   * ![robot][robot]
 * `grave-skull`
   * ![skull][skull]
+
+#### Mustache.js Usage
+
+For the `icon:`, you should leave off the `grave-` portion.
 
 [dead-to-us-gif]: /html/assets/images/dead-to-us.gif
 [emojipedia]: https://emojipedia.org

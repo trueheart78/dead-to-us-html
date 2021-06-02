@@ -7,7 +7,7 @@ body{font:100% Arial, sans-serif;font-size:14pt;margin:0 auto;text-align:center}
 .cemetery .headstone .engraving .header .name h1{margin:0}
 .cemetery .headstone .engraving .header .death_date{text-align:right;width:28%;float:left}
 .cemetery .headstone .engraving .epitaph{margin-top:2em;font-style:italic}
-.cemetery .headstone .grave-default,.cemetery .headstone .grave-ghost,.cemetery .headstone .grave-coffin,.cemetery .headstone .grave-skull,.cemetery .headstone .grave-zombie_boy,.cemetery .headstone .grave-zombie_girl,.cemetery .headstone .grave-zombie,.cemetery .headstone .grave-vampire_boy,.cemetery .headstone .grave-vampire_girl,.cemetery .headstone .grave-vampire{
+.cemetery .headstone .grave-default,.cemetery .headstone .grave-ghost,.cemetery .headstone .grave-robot,.cemetery .headstone .grave-coffin,.cemetery .headstone .grave-skull,.cemetery .headstone .grave-zombie_boy,.cemetery .headstone .grave-zombie_girl,.cemetery .headstone .grave-zombie,.cemetery .headstone .grave-vampire_boy,.cemetery .headstone .grave-vampire_girl,.cemetery .headstone .grave-vampire{
   float:left;width:120px;height:120px;margin-right:20px;background-repeat:no-repeat;background-image:url(/assets/images/ghost.png)
 }
 .cemetery .headstone .grave-coffin{background-image:url(/assets/images/coffin.png)}

@@ -26,30 +26,8 @@
   </script>
   </head>
   <body onload="populateCemetery(bodies)">
-    <!-- <div class="grave-zombie_boy"></div> -->
-    <!-- <div class="grave-ghost"></div> -->
-    <div class="cemetery" id="cemetery"></div>
-    <script id="template" type="x-tmpl-mustache">
-      {{#corpses}}
-      <div class="headstone">
-        <div class="grave">
-          <div class="grave-{{ icon }}"></div>
-        </div>
-        <div class="engraving">
-          <div class="header">
-            <div class="name">
-              <h1>{{ name }}</h1>
-            </div>
-            <div class="death_date">{{ year }}</div>
-            <div class="clear"></div>
-          </div>
-          <div class="epitaph">{{ epitaph }}</div>
-        </div>
-        <div class="clear"></div>
-      </div>
-      {{/corpses}}
-    </script>
-    <script src="https://unpkg.com/mustache@latest"></script>
+    <div class="cemetery" id="cemetery"><span style='color: white;'>Loading...</span></div>
+    <script src="https://unpkg.com/mustache@4.2.0"></script>
     <script src="/assets/javascript/populate-cemetery.js"></script>
     <div class="footer">
       <a href="/nebula">Nebula</a> | <a href="/payer">Payer</a> | <a href="/central">Central</a> | <a href="/provider">Provider</a> | <a href="/about.html">About</a>

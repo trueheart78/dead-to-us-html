@@ -1,38 +1,131 @@
-body{font:100% Arial, sans-serif;font-size:14pt;margin:0 auto;text-align:center}
-.about{margin:auto}
-.cemetery{margin:0 auto;text-align:center;width:720px}
-.cemetery .headstone{width:100%;margin-bottom:8px;margin-top:8px;padding:5px}
-.cemetery .headstone .engraving{float:right;text-align:left;width:580px;vertical-align:top;border:0px red solid}
-.cemetery .headstone .engraving .header .name{width:70%;float:left}
-.cemetery .headstone .engraving .header .name h1{margin:0}
-.cemetery .headstone .engraving .header .death_date{text-align:right;width:28%;float:left}
-.cemetery .headstone .engraving .epitaph{margin-top:2em;font-style:italic}
+body {
+    font: 100% Arial, sans-serif;
+    font-size: 14pt;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #2e2e2e;
+}
+.about {
+    margin: auto;
+}
+.cemetery {
+    margin: 0 auto;
+    text-align: center;
+    width: 720px;
+}
+.cemetery .headstone {
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 5px;
+}
+.cemetery .headstone .engraving {
+    float: right;
+    text-align: left;
+    width: 580px;
+    vertical-align: top;
+    border: 0px red solid;
+}
+.cemetery .headstone .engraving .header .name {
+    width: 70%;
+    float: left;
+}
+.cemetery .headstone .engraving .header .death_date {
+    text-align: right;
+    width: 28%;
+    float: left;
+}
+.cemetery .headstone .engraving .epitaph {
+    margin-top: 2em;
+    font-style: italic;
+}
 
 /* Any new grave class MUST be added to this ever-expanding list, or it will not display. */
-.cemetery .headstone .grave-default,.cemetery .headstone .grave-ghost,.cemetery .headstone .grave-robot,.cemetery .headstone .grave-coffin,.cemetery .headstone .grave-skull,.cemetery .headstone .grave-zombie_boy,.cemetery .headstone .grave-zombie_girl,.cemetery .headstone .grave-zombie,.cemetery .headstone .grave-vampire_boy,.cemetery .headstone .grave-vampire_girl,.cemetery .headstone .grave-vampire{
-  float:left;width:120px;height:120px;margin-right:20px;background-repeat:no-repeat;background-image:url(/assets/images/ghost.png)
+.cemetery .headstone .grave-default,
+.cemetery .headstone .grave-ghost,
+.cemetery .headstone .grave-robot,
+.cemetery .headstone .grave-coffin,
+.cemetery .headstone .grave-skull,
+.cemetery .headstone .grave-zombie_boy,
+.cemetery .headstone .grave-zombie_girl,
+.cemetery .headstone .grave-zombie,
+.cemetery .headstone .grave-vampire_boy,
+.cemetery .headstone .grave-vampire_girl,
+.cemetery .headstone .grave-vampire {
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/ghost.png);
 }
-.cemetery .headstone .grave-ghost{background-image:url(/assets/images/ghost.png)}
-.cemetery .headstone .grave-coffin{background-image:url(/assets/images/coffin.png)}
-.cemetery .headstone .grave-robot{background-image:url(/assets/images/robot.png)}
-.cemetery .headstone .grave-skull{background-image:url(/assets/images/skull.png)}
-.cemetery .headstone .grave-zombie_boy{background-image:url(/assets/images/zombie-boy.png)}
-.cemetery .headstone .grave-zombie_girl,.cemetery .headstone .grave-zombie{background-image:url(/assets/images/zombie-girl.png)}
-.cemetery .headstone .grave-vampire_boy{background-image:url(/assets/images/vampire-boy.png)}
-.cemetery .headstone .grave-vampire_girl,.cemetery .headstone .grave-vampire{background-image:url(/assets/images/vampire-girl.png)}
-.clear{clear:both}
+.cemetery .headstone .grave-ghost {
+    background-image: url(/assets/images/ghost.png);
+}
+.cemetery .headstone .grave-coffin {
+    background-image: url(/assets/images/coffin.png);
+}
+.cemetery .headstone .grave-robot {
+    background-image: url(/assets/images/robot.png);
+}
+.cemetery .headstone .grave-skull {
+    background-image: url(/assets/images/skull.png);
+}
+.cemetery .headstone .grave-zombie_boy {
+    background-image: url(/assets/images/zombie-boy.png);
+}
+.cemetery .headstone .grave-zombie_girl,
+.cemetery .headstone .grave-zombie {
+    background-image: url(/assets/images/zombie-girl.png);
+}
+.cemetery .headstone .grave-vampire_boy {
+    background-image: url(/assets/images/vampire-boy.png);
+}
+.cemetery .headstone .grave-vampire_girl,
+.cemetery .headstone .grave-vampire {
+    background-image: url(/assets/images/vampire-girl.png);
+}
+.clear {
+    clear: both;
+}
 
 /* Spooky Theme */
-@font-face{font-family:bloodlust;src:url(/assets/fonts/bloodlust.ttf)}
-body{background-color:#2E2E2E}
-.cemetery{font-family:Arial, Helvetica, sans-serif}
-.cemetery .headstone{background-color:#606060;color:#FFFFFF}
-.cemetery .headstone .engraving .header .name h1{font-family:bloodlust;font-weight:normal !important;font-size:3em}
+@font-face {
+    font-family: bloodlust;
+    src: url(/assets/fonts/bloodlust.ttf);
+}
+.cemetery {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cemetery .headstone {
+    background-color: #606060;
+    color: #ffffff;
+}
+.cemetery .headstone .engraving .header .name h1 {
+    font-family: bloodlust;
+    font-weight: normal !important;
+    font-size: 3em;
+    margin: 0;
+}
 
 /* Text */
-.text{color:#FFFFFF;font-family:bloodlust;font-weight:normal !important;font-size:2em}
-.text a{color:#FFFFFF}
+.text {
+    color: #ffffff;
+    font-family: bloodlust;
+    font-weight: normal !important;
+    font-size: 2em;
+}
+.text a {
+    color: #ffffff;
+}
 
 /* Footer */
-#footer{font-family:Arial, Helvetica, sans-serif;font-size:12pt;color:#FFFFFF;margin-top:10px;}
-#footer a{color:#FFFFFF}
+#footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #ffffff;
+    margin-top: 10px;
+}
+#footer a {
+    color: #ffffff;
+}

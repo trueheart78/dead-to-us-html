@@ -8,8 +8,8 @@ Because when you leave, you're... _dead to us_. :heart:
 
 ## Details
 
-An HTML site that utilizes [Mustache.js][mustache-repo] handle templating. Utilizes the
-[cdnjs.com][mustache-cdn] CDN.
+An HTML site that utilizes [Mustache.js][mustache-repo] to handle templating. Utilizes the
+[unpkg.com][mustache-cdn] CDN.
 
 ## Icons
 
@@ -59,4 +59,4 @@ Supported:
 [vampire_boy]: /html/assets/images/vampire-boy.png
 [vampire_girl]: /html/assets/images/vampire-girl.png
 [mustache-repo]: https://github.com/janl/mustache.js
-[mustache-cdn]: https://cdnjs.com/libraries/mustache.js
+[mustache-cdn]: https://unpkg.com/mustache@4.2.0/mustache.min.js

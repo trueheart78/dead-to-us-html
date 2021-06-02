@@ -12,6 +12,7 @@ body{font:100% Arial, sans-serif;font-size:14pt;margin:0 auto;text-align:center}
 .cemetery .headstone .grave-default,.cemetery .headstone .grave-ghost,.cemetery .headstone .grave-robot,.cemetery .headstone .grave-coffin,.cemetery .headstone .grave-skull,.cemetery .headstone .grave-zombie_boy,.cemetery .headstone .grave-zombie_girl,.cemetery .headstone .grave-zombie,.cemetery .headstone .grave-vampire_boy,.cemetery .headstone .grave-vampire_girl,.cemetery .headstone .grave-vampire{
   float:left;width:120px;height:120px;margin-right:20px;background-repeat:no-repeat;background-image:url(/assets/images/ghost.png)
 }
+.cemetery .headstone .grave-ghost{background-image:url(/assets/images/ghost.png)}
 .cemetery .headstone .grave-coffin{background-image:url(/assets/images/coffin.png)}
 .cemetery .headstone .grave-robot{background-image:url(/assets/images/robot.png)}
 .cemetery .headstone .grave-skull{background-image:url(/assets/images/skull.png)}

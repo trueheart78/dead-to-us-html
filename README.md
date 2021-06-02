@@ -30,7 +30,7 @@ the preferred style for graves are the Google style. It will require updating of
 
 Supported:
 
-* `grave-ghost` (default)
+* `grave-ghost`
   * ![ghost][ghost]
 * `grave-coffin`
   * ![coffin][coffin]

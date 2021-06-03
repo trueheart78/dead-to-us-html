@@ -11,85 +11,26 @@
     <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
     <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" media="all" href="/assets/stylesheets/site.css">
+    <link rel="stylesheet" media="all" href="/assets/stylesheets/site.css?v=3">
+    <script>
+      var corpses = {
+        "corpses": [
+          { name: 'Dan C', icon: 'coffin', year: '2021', epitaph: "'... .... ... ....' Team: You\'re muted again." },
+          { name: 'Gaby C', icon: 'coffin', year: '2021', epitaph: "So long, you wonderful, dashing bard." },
+          { name: 'Ashley T', icon: 'vampire_girl', year: '2021', epitaph: "She was drawn from a different set of blueprints." },
+          { name: 'Alli S', icon: 'ghost', year: '2020', epitaph: "I had the time of my life fighting dragons with you." },
+          { name: 'Bradley T', icon: 'ghost', year: '2020', epitaph: "His infectious laugh can still be heard far, far, far across the land." },
+          { name: 'Taylor H', icon: 'coffin', year: '2020', epitaph: "Overwhelmed by fostered pups." }
+        ]
+      }
+    </script>
   </head>
-
-  <body>
-    <!-- <div class="grave-zombie_boy"></div> -->
-    <!-- <div class="grave-ghost"></div> -->
-    <div class="cemetery">
-      <div class="headstone">
-        <div class="grave">
-          <div class="grave-ghost"></div>
-        </div>
-        <div class="engraving">
-          <div class="header">
-            <div class="name">
-              <h1>Alli S</h1>
-            </div>
-            <div class="death_date">2020</div>
-            <div class="clear"></div>
-          </div>
-          <div class="epitaph">I had the time of my life fighting dragons with you.</div>
-        </div>
-        <div class="clear"></div>
-      </div>
-
-      <div class="headstone">
-        <div class="grave">
-          <div class="grave-ghost"></div>
-        </div>
-        <div class="engraving">
-          <div class="header">
-            <div class="name">
-              <h1>Alli S</h1>
-            </div>
-            <div class="death_date">2020</div>
-            <div class="clear"></div>
-          </div>
-          <div class="epitaph">I had the time of my life fighting dragons with you.</div>
-        </div>
-        <div class="clear"></div>
-      </div>
-
-      <div class="headstone">
-        <div class="grave">
-          <div class="grave-ghost"></div>
-        </div>
-        <div class="engraving">
-          <div class="header">
-            <div class="name">
-              <h1>Bradley T</h1>
-            </div>
-            <div class="death_date">2020</div>
-            <div class="clear"></div>
-          </div>
-          <div class="epitaph">His infectious laugh can still be heard far, far, far across the land.</div>
-        </div>
-        <div class="clear"></div>
-      </div>
-
-      <div class="headstone">
-        <div class="grave">
-          <div class="grave-coffin"></div>
-        </div>
-        <div class="engraving">
-          <div class="header">
-            <div class="name">
-              <h1>Taylor H</h1>
-            </div>
-            <div class="death_date">2020</div>
-            <div class="clear"></div>
-          </div>
-          <div class="epitaph">Overwhelmed by fostered pups.</div>
-        </div>
-        <div class="clear"></div>
-      </div>
-
+  <body onload="populateCemetery(corpses);populateFooter();">
+    <div class="cemetery" id="cemetery">
+      <span style='color: white;'>Loading...</span>
     </div>
-
-    <div class="footer">
-      <a href="/nebula">Nebula<a> | <a href="/payer">Payer</a> | <a href="/central">Central</a> | <a href="/provider">Provider</a> | <a href="/about.html">About</a>
-    </div>
+    <script src="https://unpkg.com/mustache@4.2.0/mustache.min.js"></script>
+    <script src="/assets/javascript/site.js"></script>
+    <div id="footer"></div>
   </body>
 </html>

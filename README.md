@@ -51,15 +51,15 @@ Supported:
 
 For the `icon:`, you should leave off the `grave-` portion.
 
-[dead-to-us-gif]: /html/assets/images/dead-to-us.gif
+[dead-to-us-gif]: /site/assets/images/dead-to-us.gif
 [emojipedia]: https://emojipedia.org
-[skull]: /html/assets/images/skull.png
-[coffin]: /html/assets/images/coffin.png
-[zombie_boy]: /html/assets/images/zombie-boy.png
-[zombie_girl]: /html/assets/images/zombie-girl.png
-[ghost]: /html/assets/images/ghost.png
-[robot]: /html/assets/images/robot.png
-[vampire_boy]: /html/assets/images/vampire-boy.png
-[vampire_girl]: /html/assets/images/vampire-girl.png
+[skull]: /site/assets/images/skull.png
+[coffin]: /site/assets/images/coffin.png
+[zombie_boy]: /site/assets/images/zombie-boy.png
+[zombie_girl]: /site/assets/images/zombie-girl.png
+[ghost]: /site/assets/images/ghost.png
+[robot]: /site/assets/images/robot.png
+[vampire_boy]: /site/assets/images/vampire-boy.png
+[vampire_girl]: /site/assets/images/vampire-girl.png
 [mustache-repo]: https://github.com/janl/mustache.js
 [mustache-cdn]: https://unpkg.com/mustache@4.2.0/mustache.min.js
